@@ -1,0 +1,10 @@
+[
+{"className":"HeadingNode","align":"left","level":2,"children":[
+{"className":"RichTextNode","text":"Feature Engineering"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Automatically bin the scorecard data"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"sc_binned = autobinning( sc );"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

@@ -1,0 +1,8 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Refresh model documentation in Microsoft Word"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"fillModelDocumentFromWorkspace( 'creditscorecard-template.dotx', 'base' )"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

@@ -1,0 +1,28 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Load the Data from Refaat 2011","bold":true}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Load dataset from Refaat 2011"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"whos -file CreditCardData"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"load CreditCardData.mat"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Standardize variable names"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"data.Properties.VariableNames{'CustID'} = 'IDVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"data.Properties.VariableNames{'status'} = 'ResponseVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"dataMissing.Properties.VariableNames{'CustID'} = 'IDVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"dataMissing.Properties.VariableNames{'status'} = 'ResponseVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"dataWeights.Properties.VariableNames{'CustID'} = 'IDVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"dataWeights.Properties.VariableNames{'status'} = 'ResponseVar';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"dataWeights.Properties.VariableNames{'RowWeights'} = 'WeightsVar';"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

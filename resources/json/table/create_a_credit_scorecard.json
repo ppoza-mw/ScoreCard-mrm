@@ -1,0 +1,48 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Set the response variable to the status column"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"responseVar = "},
+{"className":"LiveControlNode","text":"\"ResponseVar\"","context":{"data":{"text":"responseVar","value":"\"ResponseVar\"","valueType":"String","executionModel":"Section"},"type":"editField"},"startColumn":14,"endColumn":27},
+{"className":"PlainTextNode","text":";"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Remove the ID variable from the list of predictors"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"idVar = "},
+{"className":"LiveControlNode","text":"\"IDVar\"","context":{"data":{"text":"idVar","value":"\"IDVar\"","valueType":"String","executionModel":"Section"},"type":"editField"},"startColumn":8,"endColumn":15},
+{"className":"PlainTextNode","text":";"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Create a separate bin for missing data values"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"binMissingData = "},
+{"className":"LiveControlNode","text":"true","context":{"data":{"text":"Drop down","items":[{"label":"true","value":"true"},{"label":"false","value":"false"}],"itemLabels":["true","false"],"value":"true","executionModel":"Section"},"type":"comboBox"},"startColumn":17,"endColumn":21},
+{"className":"PlainTextNode","text":";"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Use observation weights if they are present"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"weightsVar = "},
+{"className":"LiveControlNode","text":"\"WeightsVar\"","context":{"data":{"text":"weightsVar","value":"\"WeightsVar\"","valueType":"String","executionModel":"Section"},"type":"editField"},"startColumn":13,"endColumn":25},
+{"className":"PlainTextNode","text":";"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"if ~ismember( weightsVar, data.Properties.VariableNames )"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"    weightsVar = '';"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"end"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Create the credit scorecard object"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"sc = creditscorecard(data,..."}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"    'IDVar',idVar,..."}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"    'ResponseVar',responseVar,..."}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"    'BinMissingData',binMissingData,..."}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"    'WeightsVar',weightsVar);"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"disp(sc)"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

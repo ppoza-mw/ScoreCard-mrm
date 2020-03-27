@@ -1,0 +1,17 @@
+{
+  "_schemaVersion": "1.0.0",
+  "launch_binning_explorer":
+  {
+     "inputs":
+     [
+        {"name":"sc", "kind":"required", "type":["creditscorecard"]}
+     ]
+  },
+  "perform_automatic_binning":
+  {
+     "inputs":
+     [
+        {"name":"sc", "kind":"required", "type":["creditscorecard"]}
+     ]
+  }
+}

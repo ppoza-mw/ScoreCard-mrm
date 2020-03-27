@@ -1,0 +1,11 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Create deployable model"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"model = DeployableCreditScorecard( sc_fitted )"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"save model model"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":" "}]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

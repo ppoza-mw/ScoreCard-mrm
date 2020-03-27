@@ -1,0 +1,8 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Publish the model to the Model Review Environment"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"web(launchLiveScript(which('consumer_credit_scorecard')))"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

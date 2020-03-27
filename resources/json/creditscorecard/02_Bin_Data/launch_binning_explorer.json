@@ -1,0 +1,8 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Launch the Binning Explorer"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"binningExplorer( sc )"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

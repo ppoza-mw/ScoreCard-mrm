@@ -1,0 +1,15 @@
+{
+  "_schemaVersion": "1.0.0",
+  "all_validation_methods":
+  {
+     "inputs":
+     [
+        {"name":"sc", "kind":"required", "type":["creditscorecard"]}
+     ],
+     "outputs":
+     [
+        {"name":"Stats", "kind":"required", "type":[""]},
+        {"name":"T", "kind":"required", "type":[""]}
+     ]     
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_schemaVersion": "1.0.0",
+  "extract_binned_data":
+  {
+     "inputs":
+     [
+        {"name":"sc", "kind":"required", "type":["creditscorecard"]}
+     ],
+     "outputs":
+     [
+        {"name":"binnedFeatures", "kind":"required", "type":[""]},
+        {"name":"predictorVars", "kind":"required", "type":[""]}
+     ]     
+  }
+}

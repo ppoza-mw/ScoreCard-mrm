@@ -1,0 +1,14 @@
+{
+  "_schemaVersion": "1.0.0",
+  "deploy_to_MEE":
+  {
+     "inputs":
+     [
+        {"name":"sc_fitted", "kind":"required", "type":["creditscorecard"]}
+     ],
+     "outputs":
+     [
+        {"name":"model", "kind":"required", "type":[""]}
+     ]     
+  }
+}

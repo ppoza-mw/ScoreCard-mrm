@@ -1,0 +1,25 @@
+{
+  "_schemaVersion": "1.0.0",
+  "create_a_credit_scorecard":
+  {
+     "inputs":
+     [
+        {"name":"data", "kind":"required", "type":["table"]}
+     ],
+     "outputs":
+     [
+        {"name":"sc", "type":["creditscorecard"]},
+        {"name":"responseVar", "type":["string"]},
+        {"name":"idVar", "type":["string"]},
+        {"name":"binMissingData", "type":["logical"]},
+        {"name":"weightsVar", "type":["string"]}
+     ]     
+  },
+  "table_summary":
+  {
+     "inputs":
+     [
+        {"name":"data", "kind":"required", "type":["table"]}
+     ]
+  }
+}

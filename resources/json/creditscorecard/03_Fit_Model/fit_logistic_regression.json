@@ -1,0 +1,20 @@
+[
+{"className":"HeadingNode","align":"left","level":2,"children":[
+{"className":"RichTextNode","text":"Model Fitting"}]},
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Fit a logistic regression model to the WOE data. "},
+{"className":"RichTextNode","text":"fitmodel","monospace":true},
+{"className":"RichTextNode","text":" internally bins the training data, transforms it into WOE values, maps the response variable so that "},
+{"className":"RichTextNode","text":"'Good'","monospace":true},
+{"className":"RichTextNode","text":" is "},
+{"className":"RichTextNode","text":"1","monospace":true},
+{"className":"RichTextNode","text":", and fits a linear logistic regression model. By default, "},
+{"className":"RichTextNode","text":"fitmodel","monospace":true},
+{"className":"RichTextNode","text":" uses a stepwise procedure to determine which predictors should be in the model."}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"[sc,mdl] = fitmodel(sc);"}]},
+{"className":"LineNode","children":[
+{"className":"PlainTextNode","text":"scores = probdefault(sc,sc.Data);"}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]

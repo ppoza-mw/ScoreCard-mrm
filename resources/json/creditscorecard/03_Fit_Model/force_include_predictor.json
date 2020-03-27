@@ -1,0 +1,8 @@
+[
+{"className":"RichTextParagraphNode","align":"left","children":[
+{"className":"RichTextNode","text":"Include, or \"force,\" a predictor in the logistic regression model, even though the stepwise method did not include it in the fitted model."}]},
+{"className":"LiveAppLineNode","children":[
+{"className":"LiveAppIntegratedInlineNode","text":"","taskID":"","appIdentifier":"ForceIncludePredictor","appVariables":"","appVariablesUserMap":"{}","appState":"{}","view":"1","autorun":"1","collapsed":"0","code":"","numOfCodeLines":0,"lineOffsetForUpdate":-1}]},
+{"className":"SectionBreak","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]},
+{"className":"RichTextParagraphNode","align":"left","children":[]}]
